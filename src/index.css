@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: "BYekan";
+    src: url("../public/assets/fonts/yekan/BYekan-webfont.eot") format("eot"),
+         url("../public/assets/fonts/yekan/BYekan-webfont.woff") format("woff"),
+         url("../public/assets/fonts/yekan/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: url(../public/assets/images/body_back4.jpg) repeat;
+}
+
+* {
+	 font-family: "BYekan";
+    direction: rtl;
+    text-align: right;
+	box-sizing: border-box;
+  font-family: BYekan;
+}
+
